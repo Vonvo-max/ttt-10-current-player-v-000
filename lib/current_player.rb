@@ -5,7 +5,7 @@ def turn_count(board)
   board.each do |count|
     if board == "X" || board == "O"
       counter += 1
-    puts "number of turns played is #{count}"
+    puts "#{count}"
   end
 end
 
